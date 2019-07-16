@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:id="@+id/Prof_name2" android:textAlignment="center"
+              android:background="#00BCD4">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="222dp" tools:srcCompat="@drawable/Bran" android:id="@+id/imageView"
+            android:contentDescription="my picture" android:background="#00BCD4" android:scaleType="centerInside"
+            app:srcCompat="@android:color/black" android:fadingEdge="horizontal|vertical"
+            android:outlineProvider="paddedBounds" android:requiresFadingEdge="horizontal|vertical"/>
+    <TextView
+            android:text="Brandon Shumba"
+            android:layout_width="match_parent"
+            android:layout_height="65dp" android:id="@+id/Prof_name" android:textSize="36sp"
+            android:textAlignment="center" android:fontFamily="sans-serif-black"/>
+    <TextView
+            android:text="Tack : Android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/Track" android:textSize="36sp"
+            android:textAlignment="center" android:background="#05A5B9"/>
+    <TextView
+            android:text="Country : South Africa"
+            android:layout_width="match_parent"
+            android:layout_height="51dp" android:id="@+id/Country" android:textSize="30sp"
+            android:textAlignment="center" android:background="#038697"/>
+    <TextView
+            android:text="Brantshumba@gmail.com"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" android:id="@+id/Email" android:textSize="33sp"
+            android:textAlignment="center" android:background="#036E7C"/>
+    <TextView
+            android:text="076 459 3449"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/phone_number" android:textAlignment="center"
+            android:textSize="30sp" android:fontFamily="monospace" android:background="#02505A"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="26dp" android:id="@+id/black" android:background="#012327"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp" android:id="@+id/less_black" android:background="#160501"/>
+</LinearLayout>
